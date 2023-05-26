@@ -168,6 +168,7 @@ font-size: 16px;
 .xpWrapper{
     display: flex;
     flex-direction: column;
+    border-left: 1px solid lightgray;
 }
 
 .xpTitle{
