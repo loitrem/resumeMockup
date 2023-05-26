@@ -137,19 +137,14 @@ font-size: 16px;
 /* profile */
 
 .profileWrapper{
-    border: solid pink;
+    border-left: 1px solid lightgray;
+    display: flex;
+    justify-content: center;
+
 }
 
 .profile{
-    border: solid rgb(255, 0, 13);
-}
-
-.profileTitle{
-    border: solid purple;
-}
-
-.profileText{
-    border: solid black;
+    width: 90%;
 }
 
 /* skills */
@@ -168,50 +163,35 @@ font-size: 16px;
     text-align: center;
 }
 
-.skillsTitleText{
-    
-}
-
-.skill{
-    
-}
-
-.skillList{
-    
-}
-
 /* experience */
 
 .xpWrapper{
-    border: solid black;
+    display: flex;
+    flex-direction: column;
 }
 
 .xpTitle{
-    border: solid rgb(0, 255, 85);
-}
-
-.xpTitleText{
-    border: solid black;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .xpInfo{
-    border: solid rgb(68, 5, 216);
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
 .xpName{
-    border: solid rgb(255, 27, 236);
-}
-
-.xpJob{
-    border: solid rgb(255, 0, 0);
+    font-weight: bold;
 }
 
 .xpDates{
-    border: solid black;
+    font-size: 14px;
+    font-style: italic;
 }
 
 .xpDesc{
-    border: solid rgb(255, 123, 0);
-
+    margin-bottom: 25px;
 }
